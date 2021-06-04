@@ -1,7 +1,7 @@
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 
-
+import Link from "next/link"
 
 const AboutUsPage = (props) => {
     return (

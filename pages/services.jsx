@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
+
 const Services = () => {
+   
     return (
         <div>
             <div className="container">
@@ -34,7 +40,7 @@ const Services = () => {
                     </div>
                     <div className="col-md-6">
                         <br /><br /><br />
-                        <img className="ml-4 servicesImage" src={img1} alt="architecture" />
+                        <img className="ml-4 servicesImage" src="{img1}" alt="architecture" />
                     </div>
                 </div>
             </div>
@@ -63,7 +69,7 @@ const Services = () => {
                 <br />
                 <div className="row">
                     <div className="col-md-6">
-                        <img className="ml-4 servicesImage" src={img2} alt="architecture" />
+                        <img className="ml-4 servicesImage" src="{img2}" alt="architecture" />
                     </div>
                     <div className="col-md-6">
                         <br /><br /><br />
@@ -90,7 +96,7 @@ const Services = () => {
                     </div>
                     <div className="col-md-6">
                         <br /><br /><br />
-                        <img className="ml-4 servicesImage" src={img1} alt="architecture" />
+                        <img className="ml-4 servicesImage" src="{img1}" alt="architecture" />
                     </div>
                 </div>
             </div>

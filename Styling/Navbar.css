@@ -20,7 +20,7 @@
 
 .logo {
     margin-top: 5px;
-    width: 270px;   
+    width: 270px;
 }
 
 .navbar {
@@ -40,13 +40,14 @@
     width: 40px;
     height: 40px;
     font-size: 25px;
-border: 1px solid white;
-line-height: 35px;
-border-radius: 5px;
+    border: 1px solid white;
+    line-height: 35px;
+    border-radius: 5px;
 }
+
 #header-bars:hover {
- background: #dddddd;
- color: grey;
+    background: #dddddd;
+    color: grey;
 }
 
 .navbar:hover {
@@ -85,7 +86,7 @@ html:not([data-scroll="0"]) .navbar {
     border: none;
     font-weight: normal;
     font-size: 13px;
-    margin-left: 10px;
+    margin-left: 10px !important;
     letter-spacing: 1px;
     cursor: pointer;
 }
@@ -103,29 +104,26 @@ html:not([data-scroll="0"]) .navbar {
     cursor: pointer;
 }
 
-@media all and (max-width:1322px)
-{
+@media all and (max-width:1322px) {
     #navbarSupportedContent {
         margin-left: 4%;
     }
 }
-@media all and (max-width:1282px)
-{
+
+@media all and (max-width:1282px) {
     #navbarSupportedContent {
         margin-left: 2%;
     }
 }
-@media all and (max-width:1256px)
-{
-    .logo
-    {
+
+@media all and (max-width:1256px) {
+    .logo {
         width: 250px;
     }
 }
-@media all and (max-width:1235px)
-{
-    .logo
-    {
+
+@media all and (max-width:1235px) {
+    .logo {
         width: 230px;
         margin-left: -10%;
     }
@@ -133,10 +131,9 @@ html:not([data-scroll="0"]) .navbar {
         margin-left: 0%;
     }
 }
-@media all and (max-width:1235px)
-{
-    .logo
-    {
+
+@media all and (max-width:1235px) {
+    .logo {
         width: 260px;
         margin-left: initial;
     }
@@ -144,7 +141,9 @@ html:not([data-scroll="0"]) .navbar {
         margin-left: initial;
     }
 }
+
 /* Media Queries */
+
 @media all and (max-width:600px) {
     #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover {
         border: initial;
@@ -159,7 +158,8 @@ html:not([data-scroll="0"]) .navbar {
     #navbarSupportedContent {
         margin-left: initial;
         margin-top: 5%;
-        background: #9a771f;;
+        background: #9a771f;
+        ;
         border: 1px solid grey;
         border-radius: 3px;
     }
@@ -171,7 +171,7 @@ html:not([data-scroll="0"]) .navbar {
         transition: 0.5s linear;
     }
     html:not([data-scroll="0"]) #navbarSupportedContent .navbar-nav .nav-item .nav-link {
-        color:white;
+        color: white;
         background: transparent;
     }
     #navbarSupportedContent .navbar-nav .nav-item .nav-link {
@@ -185,52 +185,46 @@ html:not([data-scroll="0"]) .navbar {
         letter-spacing: 1px;
         cursor: pointer;
     }
-    
 }
-@media all and (max-width:400px)
-{
-    .logo{
+
+@media all and (max-width:400px) {
+    .logo {
         width: 230px;
     }
 }
 
-@media all and (max-width:355px)
-{
-    .logo{
+@media all and (max-width:355px) {
+    .logo {
         width: 200px;
     }
 }
 
-@media all and (max-width:330px)
-{
-    .logo{
+@media all and (max-width:330px) {
+    .logo {
         width: 180px;
     }
 }
 
-@media all and (max-width:305px)
-{
-    .logo{
+@media all and (max-width:305px) {
+    .logo {
         width: 170px;
     }
 }
-@media all and (max-width:292px)
-{
+
+@media all and (max-width:292px) {
     #header-bars {
         width: 30px;
         height: 30px;
         font-size: 20px;
-    line-height: 30px;
-    border-radius: 5px;
+        line-height: 30px;
+        border-radius: 5px;
     }
 }
-@media all and (max-width:292px)
-{
+
+@media all and (max-width:292px) {
     #header-bars {
-       position: absolute;
-       right: 5%;
-       top: 40%;
+        position: absolute;
+        right: 5%;
+        top: 40%;
     }
 }
-
-
