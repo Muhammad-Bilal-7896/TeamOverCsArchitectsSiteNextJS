@@ -1,6 +1,16 @@
 import Head from "next/head";
 import '../styles/globals.css'
 
+import "../css/About.css";
+import "../css/Admin.css";
+import "../css/Blog.css";
+import "../css/Certification.css";
+import "../css/Contact.css";
+import "../css/Home.css";
+import "../css/ProjectDetails.css";
+import "../css/Projects.css";
+import 
+
 function MyApp({ Component, pageProps }) {
   return <>
     <Head>
