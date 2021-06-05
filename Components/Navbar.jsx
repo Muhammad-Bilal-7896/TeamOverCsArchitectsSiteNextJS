@@ -50,9 +50,10 @@ const Navbar = (props) => {
                             </div>
                         </Link>
                         {/* Toggle button */}
-                        <button className="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <i className="fas fa-bars" />
-      </button>           {/* Collapsible wrapper */}
+                        {/* Toggle button */}
+                        <button className="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i id="header-bars" className="fas fa-bars" />
+                        </button>
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             {/* Left links */}
                             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
@@ -97,9 +98,10 @@ const Navbar = (props) => {
                             </div>
                         </Link>
                         {/* Toggle button */}
-                        <button className="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <i className="fas fa-bars" />
-      </button>
+                        {/* Toggle button */}
+                        <button className="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <i id="header-bars" className="fas fa-bars" />
+                        </button>
                         {/* Collapsible wrapper */}
                         <div className="collapse navbar-collapse" id="navbarSupportedContent">
                             {/* Left links */}
