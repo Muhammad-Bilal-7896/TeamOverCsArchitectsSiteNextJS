@@ -18,13 +18,12 @@
     transition: 0.5s linear;
 }
 
-.slide-image1 {
+.slide-image {
     height: 100vh;
     width: 100vw;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://www.ameradnan.com/wp-content/uploads/2018/01/Done.....jpg');
 }
 
-.slide-image2 {
+/* .slide-image2 {
     height: 100vh;
     width: 100vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://www.ameradnan.com/wp-content/uploads/2018/01/main-banner-min-1.jpg');
@@ -34,7 +33,7 @@
     height: 100vh;
     width: 100vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('http://www.ameradnan.com/wp-content/uploads/2018/01/Untitled-1-1.jpg');
-}
+} */
 
 .left-right-icon {
     font-size: 35px;

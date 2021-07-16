@@ -20,7 +20,11 @@ import "../Styling/Home.css";
 import "../Styling/Projects.css";
 import "../Styling/Services.css";
 import "../Styling/Testimonials.css";
+import 'react-multi-carousel/lib/styles.css';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
+import { Provider } from 'react-redux'
+import store from "../store";
 
 function MyApp({ Component, pageProps }) {
   return <>
@@ -38,7 +42,9 @@ function MyApp({ Component, pageProps }) {
       ></script>
       <title>Team Overc’s Architects</title>
     </Head>
-    <Component {...pageProps} />
+    <Provider store={store}>
+      <Component {...pageProps} />
+    </Provider>
   </>
 }
 
